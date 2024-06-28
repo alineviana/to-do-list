@@ -27,7 +27,10 @@ function App() {
 
   return (
     <>
-      <h1>To Do List</h1>
+      <div className="title">
+        <img src="src/assets/to-do-list.svg" alt="Image To Do List" />
+        <h1>To Do List</h1>
+      </div>
 
       <div className='data'>
         <input value={novaTarefa} onChange={e => setNovaTarefa(e.target.value)} />

@@ -32,6 +32,19 @@ body {
   place-items: center;
 }
 
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.title img {
+  height: 70px;
+  width: 100px;
+}
+
 .data {
   display: flex;
   flex-direction: row;
@@ -74,7 +87,13 @@ button:focus-visible {
 .buttons {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.buttons button {
+  margin-top: 15px;
+  width: 172px;
 }
 
 .tarefas {
